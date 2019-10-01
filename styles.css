@@ -6,7 +6,7 @@ body {
 
 .custInput {
 	border: solid 1px black;
-	margin: .5rem;
+	margin: 1rem;
 	padding: 1rem;
 }
 
@@ -17,7 +17,7 @@ div {
 	flex-direction: column;
 }
 
-div > input {
+form > input {
 	width: 70%;
 }
 
@@ -41,7 +41,7 @@ button {
 
 .blackBoxVIPS {
 	background-color: #000;
-	margin: .5rem;
+	margin: 1rem;
 	padding: 1.5rem;
 	border-radius: 1rem;
 	color: #fff;
