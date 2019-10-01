@@ -10,15 +10,30 @@ body {
 	padding: 1rem;
 }
 
-div {
+/*div {
 	display: flex;
 	align-items: left;	
 	align-content: space-between;
 	flex-direction: column;
+}*/
+
+.row {
+	display: flex;
+	margin: 1rem;
+
 }
 
-form > input {
-	width: 70%;
+.label {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.row > input {
+/*	width: 70%;*/
+	flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0%;
 }
 
 .buttonCreate {
