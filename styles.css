@@ -1,0 +1,65 @@
+body {
+	font-family: sans-serif;
+	color: #000;
+}
+
+
+.custInput {
+	border: solid 1px black;
+	margin: .5rem;
+	padding: 1rem;
+}
+
+div {
+	display: flex;
+	align-items: left;	
+	align-content: space-between;
+	flex-direction: column;
+}
+
+div > input {
+	width: 70%;
+}
+
+.buttonCreate {
+	width: 15%;
+	background-color: #ccc;
+}
+
+button {
+	width: 15%;
+	background-color: #ccc;
+}
+
+#custNameErr {
+	color: red;
+}
+
+#custEmailErr {
+	color: red;
+}
+
+.blackBoxVIPS {
+	background-color: #000;
+	margin: .5rem;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	color: #fff;
+}
+
+.customerRows {
+
+}
+
+.vipRow {
+	background-color: dodgerBlue;
+	margin: .5rem;
+	padding: 1.5rem;
+	color: #fff;
+}
+
+.nonvipRow {
+	margin: .5rem;
+	padding: 1.5rem;
+	color: #000;
+}
